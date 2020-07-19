@@ -1,0 +1,39 @@
+/* desktop */
+@import url("../css/desktop/header.css");
+@import url("../css/desktop/sections.css");
+@import url("../css/desktop/slogan.css");
+@import url("../css/desktop/content.css");
+@import url("../css/desktop/contact.css");
+@import url("../css/desktop/footer.css");
+
+/* tablet */
+@import url("../css/tablet/header.css");
+@import url("../css/desktop/sections.css");
+@import url("../css/desktop/slogan.css");
+@import url("../css/desktop/content.css");
+@import url("../css/desktop/contact.css");
+@import url("../css/desktop/footer.css");
+
+/* phone */
+@import url("../css/phone/header.css");
+@import url("../css/phone/sections.css");
+@import url("../css/phone/slogan.css");
+@import url("../css/phone/content.css");
+@import url("../css/phone/contact.css");
+@import url("../css/phone/footer.css");
+
+/* animations */
+@import url("../css/animations/animations.css");
+
+/* general */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}

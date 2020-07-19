@@ -1,0 +1,47 @@
+@media screen and (max-width: 425px){
+    
+    .header{
+        background-image: linear-gradient(
+        rgba(255, 166, 93, 0.5), 
+        rgb(255, 166, 93, 0.5)
+        ),
+        url("../../img/phone_sun.jpg");
+        background-attachment: scroll;
+    }
+
+    .title .title-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #333333;
+        width: 70%;
+    }
+
+    .header .title .title-text h1{
+        font-size: 13vw;
+        margin: 0 auto;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    .header .title .title-text h3{
+        font-size: 8vw;
+        margin: 0 auto;
+        margin-top: 2vh;
+        font-weight: 400;
+        width: 80%;
+        font-weight: 600;
+    }
+
+    .header .title .title-text p{
+        margin-top: 1vh;
+        font-size: 4vw;
+    }
+
+    .header .title .title-text .platforms{
+        padding: 0 0% 0 0%;
+    }
+
+}

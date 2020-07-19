@@ -1,0 +1,7 @@
+@media screen and (max-width: 425px){
+    
+    .footer-container .footer p{
+        font-size: 4vw;
+    }
+
+}

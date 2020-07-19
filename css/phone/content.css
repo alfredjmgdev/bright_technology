@@ -1,0 +1,54 @@
+@media screen and (max-width: 425px){
+
+    .content-container .content .title{
+        font-size: 6vw;
+    }
+
+    .content-container .content1 .subcontent{
+        width: 50%;
+        margin: 5vh 64% 0 6%;
+    }
+
+    .content-container .content1 .subcontent h3{
+        font-size: 6vw;
+    }
+
+    .content-container .content1 .subcontent p{
+        text-align: center;
+        margin: 2vh 0% 0 0%;
+        font-size: 4vw;
+    }
+
+    .content-container .content2 .subcontent{
+        width: 35%;
+        padding: 6vh 0 0 0;
+        margin: 0 3% 0 62%;
+    }
+
+    .content-container .content2 .subcontent h3{
+        font-size: 6vw;
+    }
+
+    .content-container .content2 .subcontent p{
+        text-align: center;
+        margin: 2vh 0% 0 0%;
+        font-size: 4vw;
+    }
+
+    .content-container .content3 .subcontent{
+        width: 35%;
+        padding: 6vh 0 0 0;
+        margin: 0vh 55% 0 5%;
+    }
+
+    .content-container .content3 .subcontent h3{
+        font-size: 6vw;
+    }
+
+    .content-container .content3 .subcontent p{
+        text-align: center;
+        margin: 2vh 0% 0 0%;
+        font-size: 4vw;
+    }
+
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 425px){
+
+    .sections-container .sections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 3% 5vh 3%;
+    }
+
+    .sections-container .sections .section{
+        margin: 2vh 5% 2vh 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .sections-container .sections .section .icon{
+        font-size: 6vw;
+    }
+
+    .sections-container .sections .section h4{
+        margin: 4vh 0 0 0;
+        font-size: 8vw;
+    }
+
+    .sections-container .sections .section .heading{
+        margin: 2vh 0 0 0;
+        font-size: 6vw;
+    }
+
+    .sections-container .sections .section .content{
+        margin: 2vh 0 0 0;
+        font-size: 4vw;
+    }
+
+}

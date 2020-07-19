@@ -1,0 +1,52 @@
+.sections-container .sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5vh 20% 5vh 20%;
+}
+
+.sections-container .sections .section{
+    margin: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    visibility: hidden;
+}
+
+.sections-container .sections .active{
+    visibility: visible;
+}
+
+.sections-container .sections .section .icon{
+    font-size: 2vw;
+}
+
+.sections-container .sections .section .icon i.fa{
+    display: inline-block;
+    border-radius: 60px;
+    background-color: #ffa65d;
+    padding: 0.5em 0.6em;
+    color: #ffffff;
+}
+
+.sections-container .sections .section h4{
+    margin: 4vh 0 0 0;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.sections-container .sections .section .heading{
+    margin: 2vh 0 0 0;
+    font-size: 1.5vw;
+    color: #909090;
+    text-align: center;
+}
+
+.sections-container .sections .section .content{
+    margin: 2vh 0 0 0;
+    font-size: 1vw;
+    text-align: center;
+}

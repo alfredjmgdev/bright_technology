@@ -1,0 +1,12 @@
+@media screen and (max-width: 425px){
+
+    .slogan-container .slogan{
+        padding: 5vh 0 5vh 0;
+        width: 90%;
+    }
+
+    .slogan-container .slogan p{
+        font-size: 8vw;
+    }
+
+}
